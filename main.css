@@ -41,7 +41,7 @@ figcaption {
     border: 0.5px solid black;
 }
 
-a.title {
+p.title, a.title {
     font-size: 0.9em;
     color: grey;
 }

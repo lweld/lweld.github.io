@@ -8,7 +8,7 @@
 
 	<body class="left-text">
         <nav>
-            <p><a href="../index.html">Home</a> &nbsp; | &nbsp; <a href="./index.html">Blog Posts</a> &nbsp; | &nbsp; <a href="../now.html">now</a></p>
+            <p class="title"><a class="title" href="../index.html">Liam Weld</a> &nbsp; | &nbsp; <a class="title" href="./index.html">Blog Posts</a></p>
         </nav>
         <div>
             <h2>Spending Time on Our Craft vs Interests</h2>
@@ -18,7 +18,7 @@
             <p>WorldCover is no different. Founded in 2015 by MIT engineers, WorldCover is a <a href="https://www.artemis.bm/library/what-is-parametric-insurance" target="_target">parametric</a> crop insurance platform for farmers in lower income countries. We insure farmers against catastrophic weather events, like droughts, which destroy farmers’ crops. 95% of agriculture in places like Ghana is rainfed, so the threat of droughts is pervasive, and it makes it difficult for farmers to obtain loans and invest profitably in their farms.</p>
             <p>Instead of relying on in-person loss assessments to determine claims, which are costly and time consuming, WorldCover uses weather observations to automatically trigger payouts to policyholders. This is how we “parameterize” our risks: payouts to customers rely on an “index” of rainfall or weather data, not on customer actions that are susceptible to fraud and costly to monitor.</p>
             <p>For example, a maize farmer in northern Rwanda might become eligible for a claim if less than 200mm of rainfall is observed during her growing season. Once the rainfall is measured — either by satellite or by ground observations — a claim payment can be instantly sent via mobile money (like <a href="https://en.wikipedia.org/wiki/M-Pesa" target="_blank">M-PESA</a>) to a customer’s wallet.</p>
-            <img src="./worldcover-farmers.jpeg" height="262" width="350" alt="‍Farmers signing up for WorldCover insurance">
+            <img src="img/worldcover-farmers.jpeg" height="262" width="350" alt="‍Farmers signing up for WorldCover insurance">
             <figcaption>‍Farmers signing up for WorldCover insurance.</figcaption>
             <p>WorldCover has also built a network of capital providers and investors, who accept the financial risk of paying for drought claims in return for participating in the premium income that WorldCover collects from customers. This is a diversified investment because weather in Africa is unrelated to traditional investments like stocks and bonds.</p>
             <p>WorldCover’s business model is highly amenable to a blockchain application, as there are objective rules for transferring value. Public blockchains enable products that are:</p>
@@ -34,7 +34,7 @@
             <p>Since then, we have been building a <a href="https://www.coindesk.com/information/ethereum-smart-contracts-work" target="_blank">smart contract</a> that simulates our insurance contracts and logs related transactions to the Ethereum blockchain (e.g., if a payout was made to a farmer, this transaction would be logged to the blockchain). Each of these transactions are publicly viewable on the blockchain. The first transaction represents the simulation of a real insurance contract, with every subsequent transaction representing automatic payouts to policyholders once real-time weather data triggers a payout.</p>
             <p>Here is an example use case: a regulator in India would like to verify whether WorldCover has been acting on their promises to farmers (i.e., that we’ve been making proper payouts). Currently, WorldCover and its insurance partners provide this regulator with access to their internal database of contracts as proof of payment. This method is inefficient, discloses more about customers’ contracts than necessary, and relies on trust of WorldCover and its partners.</p>
             <p>With our smart contract solution, the regulator verifies the status of our insurance contracts on the blockchain, which confirms payments while concealing customers’ personal data and WorldCover’s proprietary data.</p>
-            <img src="./worldcover-smart-contract-workflow.png" height="280" width="370" alt="How the smart contract works">
+            <img src="img/worldcover-smart-contract-workflow.png" height="280" width="370" alt="How the smart contract works">
             <figcaption>Workflow of a blockchain enabled smart contract for weather-based crop insurance.</figcaption>
             <p>Considering that WorldCover sells parametric crop insurance, payouts can be triggered by weather data available from both external parties such as <a href="https://www.ears.nl/" target="_blank">EARs</a>, <a href="https://www.noaa.gov/weather" target="_blank">NOAA</a>, as well as private sources such as <a href="https://spire.com/en" target="_blank">Spire Global</a> and <a href="https://www.athenium.com/about-us/" target="_blank">Weather Analytics</a>. With that said, the value of using blockchain for our purposes is not in showing stakeholders that a past contract triggered the proper payout amount, but in showing that we followed through with our promises to pay farmers.</p>
             <h4>The future</h4>
