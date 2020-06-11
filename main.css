@@ -64,6 +64,23 @@ hr {
   border-top: 1px solid #eee; 
 }
 
+.button {
+  font-size: 0.8em;
+  background-color: #e7e7e7;
+  border: 1px solid #e7e7e7;
+  color: black;
+  padding: 4px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+
 .center-homepg {
     padding-top: 10rem;
     text-align: center;
